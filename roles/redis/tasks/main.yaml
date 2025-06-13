@@ -1,4 +1,3 @@
-
 - name: disable redis default module
   ansible.builtin.command: dnf module disable redis -y
 
