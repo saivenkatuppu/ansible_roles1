@@ -1,1 +1,3 @@
 CATALOGUE_HOST: catalogue.calvio.store
+USER_HOST: user.calvio.store
+CART_HOST: cart.calvio.store
