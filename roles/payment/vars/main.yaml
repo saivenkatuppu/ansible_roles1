@@ -1,0 +1,5 @@
+CART_HOST: cart.calvio.store
+USER_HOST: user.calvio.store
+RABBITMQ_HOST: rabbitmq.calvio.store
+RABBITMQ_USER: roboshop
+RABBITMQ_PASSWORD: roboshop123
