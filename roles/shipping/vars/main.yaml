@@ -1,5 +1,5 @@
 MYSQL_HOST: mysql.calvio.store
-MYSQL_HOST_USER: root
-MYSQL_HOST_PASSWORD: RoboShop@1
+MYSQL_ROOT_USER: root
+MYSQL_ROOT_PASSWORD: RoboShop@1
 CART_HOST: cart.calvio.store
 SHIPPING_HOST: shipping.calvio.store
