@@ -1,0 +1,2 @@
+ REDIS_HOST: redis.calvio.store
+ MONGODB_HOST: mongodb.calvio.store
