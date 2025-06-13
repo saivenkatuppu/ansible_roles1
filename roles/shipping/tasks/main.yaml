@@ -1,18 +1,14 @@
-- name: app-setup
+- name: app setup
   include_role:
-     name: common
-     tasks_from: app-setup
-     
+    name: common
+    tasks_from: app-setup
 
-- name: maven
+- name: maven setup
   include_role:
-     name: common
-     tasks_from: maven
-
+    name: common
+    tasks_from: maven
 
 - name: import data
-  tags:
-  - import
   community.mysql.mysql_db:
     name: all
     login_user: "{{ MYSQL_ROOT_USER }}"
@@ -25,7 +21,7 @@
   - /app/db/app-user.sql
   - /app/db/master-data.sql
 
-  - name: maven
+- name: systemd setup
   include_role:
-     name: common
-     tasks_from: systemd
+    name: common
+    tasks_from: systemd
